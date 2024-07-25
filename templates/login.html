@@ -1,0 +1,16 @@
+<!doctype html>
+<title>ログイン</title>
+  <h1>ログイン</h1>
+  <form method="post">
+    <input name="username" id="username" required placeholder="ユーザー名">
+    <input type="password" name="password" id="password" required placeholder="パスワード">
+    <input type="submit" value="Login">
+  </form>
+  <div>
+    {{ message }}
+  </div>
+  <div>
+    <a href="/register">
+      新規登録はこちら 
+    </a>
+  </div>

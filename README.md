@@ -1,3 +1,6 @@
+# Purpose
+Dumb straitforward codes for my wife to get grasp of how a web app works
+
 # How to set up local env
 https://learn.microsoft.com/ja-jp/training/modules/python-install-vscode/2-python-programming-language?pivots=macos
 
@@ -13,7 +16,6 @@ $flask init-db
 $flask --debug run
 
 access to http://127.0.0.1:5000
-
 
 $ Ref
 general
